@@ -1,77 +1,78 @@
 .profile-image {
-    max-width: 100%;
+    max-width: 150px; /* Adjust the size as needed */
+    display: block;
+    margin: 10px auto; /* Center the image horizontally */
     border-radius: 50%;
-    margin-top: 10px;
-  }
+}
   
 body {
-    font-family: 'Poppins', sans-serif;
-    margin: 0;
-    padding: 20px;
-    background-color: #f4f4f4;
-    color: #333;
-  }
-  
-  .profile-image {
-    max-width: 100%;
-    border-radius: 50%;
-  }
-  
-  h1 {
-    color: #007BFF;
-  }
-  
-  div {
-    margin-top: 20px;
-  }
-  
-  p {
-    line-height: 1.5;
-  }
-  
-  table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 20px;
-  }
-  
-  th, td {
-    border: 1px solid #ddd;
-    padding: 8px;
-    text-align: left;
-  }
-  
-  th {
-    background-color: #007BFF;
-    color: #fff;
-  }
-  
-  .contact-me {
-    margin-top: 30px;
-  }
-  
-  .btn {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #007BFF;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
-  }
-  
-  .bottom-container {
-    margin-top: 50px;
-    text-align: center;
-  }
-  
-  .footer-link {
-    margin: 0 15px;
-    color: #007BFF;
-    text-decoration: none;
-  }
-  
-  .copyright {
-    margin-top: 20px;
-    font-size: 14px;
-    color: #777;
-  }  
+    font-family: 'Poppins', sans-serif; /* Set the font for the entire page */
+    margin: 0; /* Remove default margin */
+    padding: 20px; /* Add padding around the content */
+    background-color: #f4f4f4; /* Set background color */
+    color: #333; /* Set text color */
+}
+
+.profile-image {
+    max-width: 100%; /* Ensure the image doesn't exceed its container */
+    border-radius: 50%; /* Make the image circular */
+}
+
+h1 {
+    color: #007BFF; /* Set color for h1 element */
+}
+
+div {
+    margin-top: 20px; /* Add margin at the top of div elements */
+}
+
+p {
+    line-height: 1.5; /* Set line height for paragraphs */
+}
+
+table {
+    width: 100%; /* Make tables fill the entire width */
+    border-collapse: collapse; /* Collapse borders between table cells */
+    margin-top: 20px; /* Add margin at the top of tables */
+}
+
+th, td {
+    border: 1px solid #ddd; /* Add borders to table cells */
+    padding: 8px; /* Add padding to table cells */
+    text-align: left; /* Align text to the left in table cells */
+}
+
+th {
+    background-color: #007BFF; /* Set background color for table headers */
+    color: #fff; /* Set text color for table headers */
+}
+
+.contact-me {
+    margin-top: 30px; /* Add margin at the top of the contact-me section */
+}
+
+.btn {
+    display: inline-block; /* Make the button inline */
+    padding: 10px 20px; /* Add padding to the button */
+    background-color: #007BFF; /* Set background color for the button */
+    color: #fff; /* Set text color for the button */
+    text-decoration: none; /* Remove underline from the button */
+    border-radius: 5px; /* Add border-radius to the button for rounded corners */
+}
+
+.bottom-container {
+    margin-top: 50px; /* Add margin at the top of the bottom container */
+    text-align: center; /* Center-align text in the bottom container */
+}
+
+.footer-link {
+    margin: 0 15px; /* Add margin around footer links */
+    color: #007BFF; /* Set text color for footer links */
+    text-decoration: none; /* Remove underline from footer links */
+}
+
+.copyright {
+    margin-top: 20px; /* Add margin at the top of the copyright section */
+    font-size: 14px; /* Set font size for copyright text */
+    color: #777; /* Set text color for copyright text */
+}
